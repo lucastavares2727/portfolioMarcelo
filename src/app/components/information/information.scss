@@ -1,0 +1,38 @@
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    grid-area: info;
+    max-width: 500%;
+
+    
+    
+    .languages-info{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+        width: 100%;
+        
+    }
+
+    span{
+        color: var(--text-secundary);
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    @media(min-width: 768px){
+
+        align-items: flex-start;
+        span{
+            font-size: 20px;
+            line-height: 36px;
+            text-align: start;
+        }
+    }
+
+}
